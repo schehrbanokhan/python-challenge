@@ -20,7 +20,7 @@ with open(csvpath, newline='') as csvfile:
         total_no_months.append(row[0])
         total_profit.append(int(row[1]))
 
-roster=zip(total_no_months, total_profit)
+
 months=len(total_no_months)
 
 for x in range(months-1):
