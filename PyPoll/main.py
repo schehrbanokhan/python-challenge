@@ -37,13 +37,6 @@ correy_percentage= round((votes_for_correy/total_votes)*100)
 li_percentage= round((votes_for_li/total_votes)*100)
 tooley_percentage= round((votes_for_tooley/total_votes)*100)
 
-
-# can=["Khan","Correy","Li","O'Tooley"]
-# vot_per=[khan_percentage,correy_percentage,li_percentage,tooley_percentage]f
-# for x in range(len(can)):
-#     if vot_per[x]==max(vot_per):
-#         winner = can[x]
-#     print(winner)
 can=["Correy","Li","O'Tooley","Khan"]
 vot_per=[correy_percentage,li_percentage,tooley_percentage,khan_percentage]
 
